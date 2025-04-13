@@ -28,7 +28,7 @@ app.get('/shopee', async (req, res) => {
 
 app.listen(port, async () => {
     console.log(`Server listening on port ${port}`);
-    console.log(`Server started on http://localhost:${port}`);
+    console.log(`Server started on http://select-intensely-feline.ngrok-free.app/`);
     const url = await ngrok.forward({
         authtoken: process.env.NGROK_TOKEN,
         addr: port,
