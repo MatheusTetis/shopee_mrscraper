@@ -16,3 +16,18 @@ After that, I tried:
    4. Finally I was able to deploy it to GitHub, connecting to Ngrok and displaying a public endpoint.
   
 All the attempts I made you can find in the "all_attempts" folder under this directory
+
+# Instruction to setup and run
+1. Clone the repository:
+~~~bash
+cd project_directory
+git clone https://github.com/MatheusTetis/shopee_mrscraper.git
+~~~
+2. Install NPM packages and start the server:
+~~~bash
+npm install
+num start
+~~~
+3. Access the endpoint on https://select-intensely-feline.ngrok-free.app/shopee
+4. Example of requesting using URL Parameters:
+- https://select-intensely-feline.ngrok-free.app/shopee?storeId=178926468&dealId=21448123549
