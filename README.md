@@ -14,3 +14,5 @@ After that, I tried:
    2. I check every request header running under the covers to get the headers that filled the needs;
    3. Then I made a request to "get_pc" endpoint using axios, with the gotten header and proxies;
    4. Finally I was able to deploy it to GitHub, connecting to Ngrok and displaying a public endpoint.
+  
+All the attempts I made you can find in the "all_attempts" folder under this directory
